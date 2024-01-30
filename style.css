@@ -63,7 +63,7 @@
     background-color:
     #111B21; 
     outline: none;
-    color: black;
+    color: white;
     border: none;
     border-radius: 10px;
     margin-left: 10px;
@@ -102,6 +102,7 @@
 .chat-title{
     margin-left: 10px;
     font-weight: bold;
+    color: white;
 }
 .chat-details{
     margin-left: 10px;
@@ -110,16 +111,19 @@
 .chat-histroy{
     margin-top: 7px;
     margin-left: 10px;
+    color: wheat;
 }
 .chat-histroy1{
     margin-top: 7px;
     margin-left: 10px;
     color: green;
+    font-weight: bold;
 }
 .time{
     margin-left: auto;
     margin-bottom: 5px;
     font-weight: bold;
+    font-size: 15px;
 }
 #center{
     height: 100vh;
