@@ -4,7 +4,7 @@
 #main{
     display: flex;
     width: 100%;
-    background-color: black;
+    background-color: white;
 }
 #maindiv {
     height: 100%;
@@ -12,22 +12,17 @@
     border: 1px solid black;
     display: flex;
     flex-direction: column;
-    background-color: 
-    #1B2226;
+    background-color: white;
+    overflow-y: scroll;
+
 }
 .top{
 
     border-bottom:1px solid black ;
-    background-color:  #202C33;
+    background-color:  #F0F2F5;
+   
 }
-/* .message{
-    height: 100vh;
-    width: 75%;
-    border: 1px solid black;
-    position: absolute;
-    left: 410px;
-    top: 0px;
-} */
+
 .madina{
     height: 40px;
     width: 40px;
@@ -56,12 +51,12 @@
     margin-top: 10px;
     margin-left: 5px;
 } 
+
 .search{
     margin-top: 10px;
     width: 25vw;
     height: 30px;
-    background-color:
-    #111B21; 
+    background-color:#F0F2F5; 
     outline: none;
     color: white;
     border: none;
@@ -92,7 +87,7 @@
     align-items: center;
     height: 50px;
     margin-top: 10px;
-    background-color: #2A3942;
+    background-color: white;
 }
 
 .profileimage img{
@@ -102,7 +97,7 @@
 .chat-title{
     margin-left: 10px;
     font-weight: bold;
-    color: white;
+    color: black;
 }
 .chat-details{
     margin-left: 10px;
@@ -111,7 +106,7 @@
 .chat-histroy{
     margin-top: 7px;
     margin-left: 10px;
-    color: wheat;
+    color: gray                                                 ;
 }
 .chat-histroy1{
     margin-top: 7px;
@@ -133,6 +128,7 @@
     margin-top: -451px;
     display: flex;
     flex-direction: column;
+    background-color: #efeae2;
 }
 #nav{
     display: flex;
@@ -140,13 +136,13 @@
     align-items: center;
     height: 50px;
     margin-top: 10px;
-    background-color: #F0F2F5;
+    background-color: #efeae2;
 }
 .chattitle{
     margin-left: 10px;
     margin-bottom: 1px;
     font-weight: bold;
-    color: white;
+    color: black;
 }
 .phone img{
     height: 20px;
@@ -169,7 +165,7 @@
 }
 #nav{
     margin-top: 0px;
-    background-color: #0C1317;
+    background-color: #F0F2F5;
 }
 
 #center {
@@ -201,7 +197,7 @@
     display: flex;
     bottom: 0px;
     justify-content: space-between;
-    background-color: #2A363E;
+    background-color: #F0F2F5;
     align-items: center;
     margin-top: 530px;
     position: fixed;
@@ -224,7 +220,7 @@
     margin-left: -40px;
     outline: none;
     border: 1px solid gray;
-    background-color: #2A363E;
+    background-color: #F0F2F5;
     color: white;
 }
 .microphone img{
